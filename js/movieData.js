@@ -1,5 +1,6 @@
 export async function getData(url){
     const response = await fetch(url);
-    let data = await response.json();
+    const { data } = await response.json();
+    //this.movies = data;
     return data;
 }

@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}body {
+    font-family: "arial", sans-serif;
+    background: rgb(61, 61, 61);
+    -webkit-font-smoothing: antialiased;
+    color: white;
+}
+.movie{
+    background: rgb(92, 92, 92);
+    width: 20rem;
+    height: 12rem;
+}
